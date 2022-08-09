@@ -87,6 +87,7 @@ struct ContentView: View {
     
     func restartQuiz() {
         currentQuestionNumber = 1
+        score = 0
         askQuestion()
     }
 }
